@@ -1,0 +1,37 @@
+/* ------------------BLOCK-TEXT-------------------- */
+.block-text__title {
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 126%;
+	color: #000;
+}
+.block-text__title:not(:last-child) {
+	margin: 0px 0px 12px 0px;
+}
+.block-text__title span {
+	color: #EC5863;
+}
+.block-text__title_blue span {
+	color: #4285F4;
+}
+.block-text_center {
+	text-align: center;
+}
+.block-text__text {
+	letter-spacing: 0.96px;
+	line-height: 138.5%;
+}
+.block-text__text:not(:last-child) {
+	margin: 0px 0px 24px 0px;
+}
+.block-text__text_mw {
+	max-width: 610px;
+	margin: 0 auto;
+}
+.block-text__button {
+}
+@media (max-width: 767.98px) {
+	.block-text__title {
+		font-size: 34px;
+	}
+}
